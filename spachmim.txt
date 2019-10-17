@@ -1,0 +1,69 @@
+Keyboard Map of SPAchmim, a public domain Coptic font
+Created by: Jimmy Adair, Scholars Press
+Last modified: 19 March 1998
+
+Description: SPAchmim exists in both Macintosh and Windows 
+versions, both with the same character and keyboard maps.  By 
+design, all characters in the font lie between decimal 32 and 127 
+(20x-7Fx, 040-0177), so they should transfer without problem over 
+the Internet.  The font is designed to follow the Thesaurus 
+Linguae Graecae encoding scheme to as 
+great an extent as possible, with extra characters added that are not 
+present in Greek (see <a href="http://purl.org/TC/TC-translit.html#Coptic">
+http://purl.org/TC/TC-translit.html#Coptic</a>).  In addition to the 
+standard Sahidic characters, three 
+forms of the Bohairic/Achmimic chai (corresponding to the variant forms 
+of the glyph) are included.  The composite character ti and the 
+supralinear stroke are also included.  
+
+A few differences may exist among keyboards for some shifted keys 
+(e.g., is " shift-' or shift-2 ?), so people with different 
+keyboards will have to make the proper adjustments.
+
+character description              key to push
+
+alpha                              a
+beta                               b
+gamma                              g
+delta                              d
+epsilon                            e
+zeta                               z
+eta                                h
+theta                              q
+iota                               i
+kappa                              k
+lambda                             l
+mu                                 m
+nu                                 n
+xi                                 c
+omicron                            o
+pi                                 p
+rho                                r
+sigma                              s
+tau                                t
+upsilon                            u
+phi                                f
+chi                                x
+psi                                y
+omega                              w
+shai                               4
+fai                                3
+chai (Bohairic form 1)             1
+chai (Bohairic form 2)             =
+chai (Achmimic form)               8
+hori                               6
+janja                              `   (grave accent)
+kjima                              2
+ti                                 5
+
+supralinear stroke (short)         -   (hyphen)
+supralinear stroke (medium)        _   (underline, shift--)
+supralinear stroke (long)          \   (backslash)
+
+diaeresis (narrow char)            +   (plus, shift-=))
+diaeresis (wide char)              "   (double-quote, shift-')
+Lambdin's abbrev mark              |   (virgule, shift-\)
+sub-linear dot (uncertainty)       ?   (question mark)
+
+non-breaking space                 7
+space                              space

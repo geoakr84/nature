@@ -1,0 +1,219 @@
+
+header {
+	background-color: #999;
+	height: 310px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;	
+}
+footer {
+	height: 80px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#bottomNav {
+	background: -moz-linear-gradient(#404040 , #585858 , #404040); 
+	background: -o-linear-gradient(#404040 , #585858 , #404040); 
+	background: -webkit-linear-gradient(#404040 , #585858 , #404040); 
+    background: linear-gradient(#404040 , #585858 , #404040); 
+	height: 45px;
+	width: 1024px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 330px;
+	border-top: 5px ridge #585858;
+	border-bottom: 5px ridge #585858;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius: 5px;
+	
+}
+#bottomNav a {
+	font-size: 15px;
+	font-weight: bold;
+	color: #000;
+	padding-left: 25px;
+	text-decoration: underline;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+#bottomNav a span:hover {
+	font-weight: bolder;
+	color: #F00;
+}
+
+div.title{
+	margin-right: auto;
+    margin-left: auto;
+	border-left-width:1px;
+	border-left-color: #333;
+	border-right-color: #333;
+	border-right-width:1px;
+	border-right-style:solid;
+	border-left-style:solid;
+	border-top:5px groove #666666;	
+	border-bottom: 2px groove #585858;	
+	border-radius: 8px;
+	top:10px;
+	left:70px;
+	height: 74px;
+	width: 1024px;
+	font-size:30px;
+	font-weight:bold;
+	font-family: "Parthenon", GalSILB, sans-serif;;
+	color: #C8C8C8;
+    text-shadow: 2px 2px 3px #C0C0C0 ;
+	background: -moz-linear-gradient(#404040 , #585858 , #404040); 
+    background: linear-gradient(#404040 , #585858 , #404040); 
+}
+
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  font-family: "Century Gothic", sans-serif;;
+}
+#cssmenu {
+  width: 1024px;
+  height: 59px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 4px;
+}
+#cssmenu.align-right {
+  float: right;
+}
+#cssmenu.align-right ul li {
+  float: right;
+  margin-right: 0;
+  margin-left: 4px;
+}
+#cssmenu.align-right ul li:first-child,
+#cssmenu.align-right ul li:first-child > a {
+  border-bottom-right-radius: 3px;
+}
+#cssmenu #bg-one,
+#cssmenu #bg-two,
+#cssmenu #bg-three,
+#cssmenu #bg-four {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+#cssmenu #bg-one {
+  height: 10px;
+  background: #0f71ba;
+}
+#cssmenu #bg-two {
+  height: 59px;
+  z-index: 2;
+  background: url('images/bg.png');
+}
+#cssmenu #bg-three {
+  bottom: 4px;
+  height: 55px;
+  z-index: 3;
+  background: #222222;
+  background: -moz-linear-gradient(top, #555555 0%, #222222 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #555555), color-stop(100%, #222222));
+  background: -webkit-linear-gradient(top, #555555 0%, #222222 100%);
+  background: -o-linear-gradient(top, #555555 0%, #222222 100%);
+  background: -ms-linear-gradient(top, #555555 0%, #222222 100%);
+  background: linear-gradient(to bottom, #555555 0%, #222222 100%);
+}
+#cssmenu #bg-four {
+  bottom: 4px;
+  height: 55px;
+  z-index: 4;
+  background: url('images/bg.png');
+}
+#cssmenu ul {
+  height: 59px;
+}
+#cssmenu ul li {
+  float: left;
+  margin-right: 4px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  z-index: 5;
+}
+#cssmenu ul li a {
+  padding: 24px 30px 20px 30px;
+  margin-bottom: 4px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  color: #eeeeee;
+  font-size: 16px;
+  text-decoration: none;
+}
+#cssmenu ul li:first-child,
+#cssmenu ul li:first-child > a {
+  border-bottom-left-radius: 3px;
+}
+#cssmenu ul li:hover,
+#cssmenu ul li.active {
+  background: #0f71ba;
+  background: -moz-linear-gradient(top, #3fa4f0 0%, #0f71ba 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3fa4f0), color-stop(100%, #0f71ba));
+  background: -webkit-linear-gradient(top, #3fa4f0 0%, #0f71ba 100%);
+  background: -o-linear-gradient(top, #3fa4f0 0%, #0f71ba 100%);
+  background: -ms-linear-gradient(top, #3fa4f0 0%, #0f71ba 100%);
+  background: linear-gradient(to bottom, #3fa4f0 0%, #0f71ba 100%);
+}
+#cssmenu ul li a:hover,
+#cssmenu ul li.active > a {
+  background: url('images/bg.png');
+  color: black;
+  text-decoration: none;
+  font-weight: lighter;
+}
+#cssmenu ul li.home {
+  background: #0f71ba;
+  background: -moz-linear-gradient(top, #3fa4f0 0%, #0f71ba 100%);
+  background: -o-linear-gradient(top, #3fa4f0 0%, #0f71ba 100%);
+  background: -webkit-linear-gradient(top, #3fa4f0 0%, #0f71ba 100%);
+  background: linear-gradient(top, #3fa4f0 0%, #0f71ba 100%);  
+}
+#cssmenu ul li.home > a {
+	text-decoration: underline;
+}
+
+#largeImgPanel {
+    text-align: center;
+    visibility: hidden;
+    position: fixed;
+	border: 4px solid;
+	border-radius: 10px;
+	z-index: 100;
+	padding:50px;
+    top:50%; left:50%; width: 60%; height: 80%;
+	transform: translate(-50%, -50%);
+    background-color: rgba(100,100,100, 0.9);
+}
+#msg{
+	 font-weight:bolder;
+	 color:"#DCDCDC";
+	 visibility: hidden;
+	 border: 3px solid #333;
+	 border-top-right-radius: 10px;
+	 border-top-left-radius: 10px;
+     position: fixed;
+	 padding-left:10px;
+	 padding-right:10px;
+	 left:50%;
+	 top:2%;
+	 transform: translate(-50%,-2%);
+	 margin-top:20px;
+	 z-index: 100;
+	 background-color: rgba(100,100,100, 0.5);
+}
